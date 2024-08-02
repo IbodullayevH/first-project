@@ -1,0 +1,22 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./src/server",
+    "start": "node ./src/server"
+  },
+  "keywords": [],
+  "author": " Ibodullayev.H",
+  "license": "ISC",
+  "description": "This is my simple demo version site",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  }
+}
